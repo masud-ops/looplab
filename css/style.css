@@ -1,0 +1,29 @@
+body{
+    color: white;
+    font-size: 20px;
+}
+#home-section{
+   background: url(../img/cover.jpeg)
+   no-repeat center top;
+   background-size: cover;
+   min-height: 650px; 
+   background-attachment: fixed;
+}
+
+#home-section .dark-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 300px;
+}
+
+#home-section .home-inner{
+    padding-top: 150px;
+    padding-bottom: 45px;
+}
+
+#home-section .fas{
+    background: white;
+    color: blue;
+    padding: 5px;
+    font-size: 28px;
+    border-radius: 5px;
+} 
